@@ -1,0 +1,34 @@
+#quote-card-generator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-editor {
+  background: white;
+  border-radius: 8px;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.preview {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
